@@ -1,4 +1,4 @@
-public class DataTypeChallenge {
+public class IntByteShortLongChallenge {
 
     public static void main(String[] args)
     {

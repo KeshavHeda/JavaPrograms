@@ -1,5 +1,5 @@
 
-public class DataType {
+public class IntByteShortLongType {
 
     public static void main(String[] args)
     {
@@ -12,7 +12,7 @@ public class DataType {
         System.out.println("Busted INTEGER Max value: " + (myMaxIntValue + 1)); // overflow
         System.out.println("Busted INTEGER Min value: " + (myMinIntValue - 1)); // underflow
 
-        // int has a width of 32
+        // int has a width of 32 bits
         int intMinValue = -2_147_483_648;
         int intMaxValue = 2_147_483_647;
         int intTotal = (intMinValue / 2);
@@ -26,7 +26,7 @@ public class DataType {
         System.out.println("Busted BYTE Max value: " + (myMaxByteValue + 1)); // casted to Integer
         System.out.println("Busted BYTE Min value: " + (myMinByteValue - 1)); // casted to Integer
 
-        // byte ha s a width of 8
+        // byte has a width of 8 bits
         byte byteMinValue = -128;
         byte byteMaxValue = 127;
         byte byteTotal = (byte) (byteMinValue / 2);
@@ -40,7 +40,7 @@ public class DataType {
         System.out.println("Busted SHORT Max value: " + (myMaxShortValue + 1)); // casted to Integer
         System.out.println("Busted SHORT Min value: " + (myMinShortValue - 1)); // casted to Integer
 
-        // short has a width of 16
+        // short has a width of 16 bits
         short shortMinValue = -32768;
         short shortMaxValue = 32767;
         short shortTotal = (short) (shortMinValue / 2);
@@ -54,7 +54,7 @@ public class DataType {
         System.out.println("Busted LONG Max value: " + (myMaxLongValue + 1)); // overflow
         System.out.println("Busted LONG Min value: " + (myMinLongValue - 1)); // underflow
 
-        // long has a width of 64, number ends with l,L
+        // long has a width of 64 bits, number ends with l,L
         long longMinValue = -9_223_372_036_854_775_808L;
         long longMaxValue = 9_223_372_036_854_775_807L;
         long longTotal1 = (longMinValue / 2); // integer no casting required

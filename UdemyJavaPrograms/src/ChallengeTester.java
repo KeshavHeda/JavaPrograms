@@ -3,6 +3,7 @@ public class ChallengeTester {
         long longResult = 0;
         boolean booleanResult = false;
         double doubleResult = 0;
+        int intResult = 0;
 
         /*
 
@@ -169,7 +170,21 @@ public class ChallengeTester {
         longResult = ChallengeNumberOfDaysMonth.getDaysInMonth(1,-2020);
         System.out.println("ChallengeNumberOfDaysMonth Result is : " + longResult);
 
-         */
+        // Sum Odd Test
+        intResult = ChallengeSumOddRange.sumOdd(1, 100);
+        System.out.println("ChallengeSumOdd Result is : " + intResult);
+        intResult = ChallengeSumOddRange.sumOdd(-1, 100);
+        System.out.println("ChallengeSumOdd Result is : " + intResult);
+        intResult = ChallengeSumOddRange.sumOdd(100, 100);
+        System.out.println("ChallengeSumOdd Result is : " + intResult);
+        intResult = ChallengeSumOddRange.sumOdd(13, 13);
+        System.out.println("ChallengeSumOdd Result is : " + intResult);
+        intResult = ChallengeSumOddRange.sumOdd(100, -100);
+        System.out.println("ChallengeSumOdd Result is : " + intResult);
+        intResult = ChallengeSumOddRange.sumOdd(100, 1000);
+        System.out.println("ChallengeSumOdd Result is : " + intResult);
+
+*/
 
     }
 }

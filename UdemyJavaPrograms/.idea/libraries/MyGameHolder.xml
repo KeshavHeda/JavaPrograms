@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="MyGameHolder">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../MyGameHolder/out/artifacts/MyGameHolder_jar/MyGameHolder.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

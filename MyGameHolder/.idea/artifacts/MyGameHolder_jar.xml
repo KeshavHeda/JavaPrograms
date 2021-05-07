@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="MyGameHolder:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/MyGameHolder_jar</output-path>
+    <root id="archive" name="MyGameHolder.jar">
+      <element id="module-output" name="MyGameHolder" />
+    </root>
+  </artifact>
+</component>

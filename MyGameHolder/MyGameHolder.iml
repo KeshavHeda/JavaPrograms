@@ -7,7 +7,5 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="MyGameHolder" level="project" />
-    <orderEntry type="library" name="MathsSeries" level="project" />
   </component>
 </module>

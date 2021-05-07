@@ -1,4 +1,6 @@
-import java.awt.*;
+import BurgerApp.DeluxeBurger;
+import BurgerApp.Hamburger;
+import BurgerApp.HealthyBurger;
 
 public class ChallengeTester {
     public static void main(String[] args) {
@@ -40,7 +42,7 @@ public class ChallengeTester {
         ChallengeMegaBytesConverter.printMegaBytesAndKiloBytes(-1024);
         ChallengeMegaBytesConverter.printMegaBytesAndKiloBytes(5000);
 
-        // Barking Dog Test
+        // Barking Inheritance.Dog Test
         booleanResult = ChallengeBarkingDog.shouldWakeUp(true, 1);
         System.out.println("ChallengeBarkingDog shouldWakeUp Result is: " + booleanResult);
         booleanResult = ChallengeBarkingDog.shouldWakeUp(false, 2);
@@ -105,7 +107,7 @@ public class ChallengeTester {
         ChallengeMinutesYearDays.printYearsAndDays(1051200);
         ChallengeMinutesYearDays.printYearsAndDays(561600);
 
-        // Equality Printer Test
+        // Equality Encapsulation.Printer Test
         ChallengeEqualityPrinter.printEqual(1,1,1);
         ChallengeEqualityPrinter.printEqual(1,1,2);
         ChallengeEqualityPrinter.printEqual(-1,-1,-1);
@@ -420,7 +422,7 @@ public class ChallengeTester {
         person.setLastName("Smith");    // lastName is set to Smith
         System.out.println("fullName = " + person.getFullName());
 
-        // Wall Area Test
+        // CompositionApplication.Wall Area Test
         ChallengeWallArea wall = new ChallengeWallArea(5, 4);
         System.out.println("area = " + wall.getArea());
 
@@ -445,17 +447,17 @@ public class ChallengeTester {
         doubleResult = testPoint.distance();
         System.out.println("ChallengePoint distance Result is : " + doubleResult);
 
-        // Calculator Carpet Test
-        Carpet carpet = new Carpet(3.5);
-        Floor floor = new Floor(2.75, 4.0);
-        ChallengeCalculator calc = new ChallengeCalculator(floor, carpet);
+        // Calculator CarpetCost.Carpet Test
+        CarpetCost.Carpet carpet = new CarpetCost.Carpet(3.5);
+        CarpetCost.Floor floor = new CarpetCost.Floor(2.75, 4.0);
+        CarpetCost.ChallengeCalculator calc = new CarpetCost.ChallengeCalculator(floor, carpet);
         doubleResult = calc.getTotalCost();
-        System.out.println("ChallengeCalculator getTotalCost Result is : " + doubleResult);
-        carpet = new Carpet(1.5);
-        floor = new Floor(5.4, 4.5);
-        calc= new ChallengeCalculator(floor, carpet);
+        System.out.println("CarpetCost.ChallengeCalculator getTotalCost Result is : " + doubleResult);
+        carpet = new CarpetCost.Carpet(1.5);
+        floor = new CarpetCost.Floor(5.4, 4.5);
+        calc= new CarpetCost.ChallengeCalculator(floor, carpet);
         doubleResult = calc.getTotalCost();
-        System.out.println("ChallengeCalculator getTotalCost Result is : " + doubleResult);
+        System.out.println("CarpetCost.ChallengeCalculator getTotalCost Result is : " + doubleResult);
 
 
         // Complex Number Test
